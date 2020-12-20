@@ -36,7 +36,7 @@ class BlogPost extends Component {
 
   render() {
     return (
-      <div className="contain_wrapper">
+      <div className="contain_wrapper fadein">
           <div className="single-post_space"/>
       <div className="single-post_space_img"> 
         <Image imageUrl={i} contain/>
