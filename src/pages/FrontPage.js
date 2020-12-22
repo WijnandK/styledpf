@@ -70,7 +70,7 @@ class FrontPage extends React.Component {
                     </div>
                     <div className="back">
                       <div className="hero-section-content">
-                        <h2> Passion in IT </h2>
+                        <h2> Passion in technology </h2>
                         <div className="hero-section-content-intro">
                           Profesional and top quality service in web development.
                         </div>

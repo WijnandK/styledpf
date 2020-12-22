@@ -20,7 +20,7 @@ class Blog   extends React.Component {
     return (
      <Fragment>
             <div className="blogheadspace" />
-            <div className="blogwrapper fadein">
+            <div className="blogwrapper">
           {!this.state.loading && (
             <div>
               {this.state.blogs.map((blog, i) => (
