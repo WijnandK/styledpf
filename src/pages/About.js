@@ -88,11 +88,10 @@ class About extends React.Component {
                 <img src={foolhat} className="image" />
               </div>
               <div className="section_left">
-                <div className="section_title">I am not the best..</div>
+                <div className="section_title">Maybe I am not the best</div>
                 <div className="section_line" />
                 <div className="section_text">
-                  With my personality and witty jokes, i do bring a lot of energy
-                  and passion to teams.
+                 But I am eager to learn and develop myself. In every single way. You will not regret it if you give me the chance I'm waiting for.
                 </div>
               </div>
             </div>
@@ -123,7 +122,7 @@ class About extends React.Component {
                   <div className="section_line" />
                   <div className="section_text">
                     Had to quit my bachelor in the 2th yr due to personal
-                    reasons. Since then i have been self education on my
+                    reasons. Since then I have been self education on my
                     passsion web dev
                   </div>
                 </div>
