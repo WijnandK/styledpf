@@ -91,7 +91,7 @@ class About extends React.Component {
                 <div className="section_title">I am not the best..</div>
                 <div className="section_line" />
                 <div className="section_text">
-                  With my personality and witty jokes, i do bring alot of energy
+                  With my personality and witty jokes, i do bring a lot of energy
                   and passion to teams.
                 </div>
               </div>
@@ -103,7 +103,7 @@ class About extends React.Component {
                   <img src={javascript} className="image" />
                 </div>
                 <div className="section_left">
-                  <div className="section_title">Favorite langauge</div>
+                  <div className="section_title">Favorite language</div>
                   <div className="section_line" />
                   <div className="section_text">
                     Its so versatile from angular too react native. ES6+
