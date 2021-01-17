@@ -37,13 +37,17 @@ const Swipermouse = (props) => {
         // onSwiper={(swiper) => console.log("")}
         // scrollbar={{ draggable: true }}
         // pagination={{ clickable: true }}
-        style={{ height: "100vh", marginTop: "0px" , zIndex: '9'  }}
+        // style={{ height: "100vh", marginTop: "0px" , zIndex: '9'  }}
+        className="main__swiper"
       >
         <SwiperSlide className="slide_item one_i  ">
              <div className="background-image_i">
             <img src={backimg} alt="bluebck"/>
           </div>
-       <h5 className="tpx-one-desc">A webstore with serverside renderering and admin panel to add products.</h5>
+             <div className="tpx-one-desc">
+  <h5 >A webstore with serverside renderering and admin panel to add products.</h5>
+             </div>
+     
 
         </SwiperSlide>
         {/* <SwiperSlide className="slide_item three">           
@@ -54,33 +58,52 @@ const Swipermouse = (props) => {
           <div className="background-image_i">
             <img src={backimg} alt="bluebck"/>
           </div>
-            <h5 className="tpx-two-desc">
+           <div className="tpx-two-desc">
+            <h5 >
               Schedule made with excel display and sorted in reactapp for clients readability.
               Takes care of variation in numbers , mulitpliple rides and details updated daily.
-            </h5>
+            </h5></div>
         </SwiperSlide>
 
         <SwiperSlide className="slide_item three_i">
           <div className="background-image_i">
             <img src={backimg} alt="bluebck"/>
           </div>
-             <h5 className="tpx-three-desc">
+            <div className="tpx-three-desc">
+             <h5 >
               This is an application of Maximilian Schwarzmüller.
               I have completed all his courses by that way i am keeping my  coding style coherent to his.
             </h5>
+            </div>
         </SwiperSlide>
          
         <SwiperSlide className="slide_item four_i">
           <div className="background-image_i">
             <img src={backimg} alt="bluebck"/>
           </div>
-            <h5 className="tpx-four-desc">
+          <div className="tpx-four-desc">
+         <h5 >
               A different style with bootstrap. 
               Gives the users opportunity to create profiles, share experiences and collaberate.
               ! This is a course app. Altough i can assure you, there is not a single line of code unkown for me.
             </h5>
+          </div>
+         
         </SwiperSlide>
-           
+                 
+        <SwiperSlide className="slide_item ff_i">
+          <div className="background-image_i">
+            <img src={backimg} alt="bluebck"/>
+          </div>
+          <div className="tpx-ff-desc">
+         <h5 >
+            A shop in progress. 
+            Back end api's are ready. 
+            Continue styling....
+            </h5>
+          </div>
+         
+        </SwiperSlide>
       </Swiper>
     </main>
   );

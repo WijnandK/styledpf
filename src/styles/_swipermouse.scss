@@ -1,3 +1,9 @@
+.main__swiper {
+  height: 100vh;
+  margin-top: 0px;
+  z-index: 9;
+}
+// style={{ height: "100vh", marginTop: "0px" , zIndex: '9'  }}
 .slide_item {
   height: 100vh;
   padding-top: 50px;
@@ -6,27 +12,29 @@
 .swipe_item_image {
   width: 100%;
   height: 100%;
+  background-color: inherit;
 }
+
 .one_i {
   background-color: $indigo;
-  background-image: linear-gradient(45deg, $indigo, $purple);
+  background-image: linear-gradient(145deg, $orange, $purple 30%);
 }
 
 .two_i {
   background-color: $teal;
-  background-image: linear-gradient(45deg, $purple, $teal);
+  background-image: linear-gradient(45deg, $teal, $green 60%);
 }
 .three_i {
   background-color: $pink;
-  background-image: linear-gradient(45deg, $green, $cyan);
+  background-image: linear-gradient(45deg, $purple, $blue 70%);
 }
 .four_i {
   background-color: $orange;
-  background-image: linear-gradient(85deg, $green, $teal);
+  background-image: linear-gradient(45deg, $orange, $yellow);
 }
-.five_i {
+.ff_i {
   background-color: $yellow;
-  background-image: linear-gradient(145deg, $pink, $red);
+  background-image: linear-gradient(45deg, $purple, $pink);
 }
 .background-image_i {
   position: absolute;
@@ -39,4 +47,21 @@
   }
 }
 @include media6 {
+  .slide_item {
+    padding-top: 50px;
+    width: 100%;
+  }
+  .swipe_item_image {
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+  }
+  .main__swiper {
+    margin-top: 0px;
+    z-index: 9;
+  }
+  .swipe_item_a {
+    width: 100%;
+    height: 420px;
+  }
 }

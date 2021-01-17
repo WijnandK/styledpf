@@ -31,34 +31,40 @@ const Swiperflip = (props) => {
     >
       <SwiperSlide className="swipe_item_a">
          <div className="swipe_item_image">
-   <Image imageUrl={props.imageone}/>
+   <Image imageUrl={props.imageone} contain/>
          </div>
      
 
       </SwiperSlide> 
-      <SwiperSlide className="swipe_item_b">
+      <SwiperSlide className="swipe_item_a">
             <div className="swipe_item_image">
-   <Image imageUrl={props.imagetwo}/>
+   <Image imageUrl={props.imagetwo} contain/>
          </div>
       
       </SwiperSlide>
-      <SwiperSlide className="swipe_item_c">
+      <SwiperSlide className="swipe_item_a">
             <div className="swipe_item_image">
-    <Image imageUrl={props.imagethree}  />
+    <Image imageUrl={props.imagethree}  contain/>
          </div>
      
       </SwiperSlide>
-      <SwiperSlide className="swipe_item_d">
-           <Image imageUrl={props.imagefour}  />
+      <SwiperSlide className="swipe_item_a">
+         <div className="swipe_item_image">
+           <Image imageUrl={props.imagefour}  contain/>
+           </div>
       </SwiperSlide>
     
 
-      <SwiperSlide className="swipe_item_f"> 
-             <Image imageUrl={props.imagefive}  />
+      <SwiperSlide className="swipe_item_a"> 
+         <div className="swipe_item_image">
+             <Image imageUrl={props.imagefive}  contain/>
+             </div>
       </SwiperSlide>
 
-      <SwiperSlide className="swipe_item_ff">
-          <Image imageUrl={props.imagesix}  />
+      <SwiperSlide className="swipe_item_a">
+        <div className="swipe_item_image">
+          <Image imageUrl={props.imagesix}  contain/>
+          </div>
       </SwiperSlide>
        
      

@@ -3,64 +3,61 @@
   @include animation(fadein 2s);
   @include animation-fill-mode(forwards);
 }
-.mainbackwrap {
-  padding-top: 100px;
-}
+
 .fadeout {
   opacity: 0;
   @include animation(fadeout 2s);
   @include animation-fill-mode(forwards);
 }
-.linkbutton {
-  background-color: $orange;
-  width: 70px;
-  height: 70px;
-}
+
 .tpx-one {
   text-align: center;
-  height: 20vh;
+
   color: $white;
   position: absolute;
   left: 50px;
   width: calc(100% - 100px);
   top: calc(100% - 91%);
+
   z-index: 7779;
   @include animation-detail(0.5s);
 }
 .tpx-one-title {
-  color: $white;
-  font-size: 44px;
+  color: $gray-300;
+  font-size: 24px;
   font-family: $fontspecial;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
+  margin-top: 70px;
   letter-spacing: 0.7px;
 }
 .tpx-one-desc {
   color: $white;
-  font-size: 18px;
+  font-size: 14px;
   font-family: $fontspecial;
-  margin-top: 60vh;
-  width: 80%;
-  margin-left: 20%;
-  margin-bottom: 80px;
   letter-spacing: 0.6px;
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 40px;
 }
 .tpx-one-btn {
-  position: fixed;
-  top: calc(100% - 19%);
-  left: calc(80% - 83%);
   width: 100%;
+  margin-top: 40px;
   .shopbtn {
-    width: 90px;
-    background-color: $teal;
-    color: $yellow;
-    font-size: 22px;
+    width: 110px;
+    background-color: $gray-700;
+    color: $orange;
+    font-size: 32px;
+    padding: 10px;
     font-family: $fontspecial;
   }
 }
 
 .tpx-two {
   text-align: center;
-  height: 20vh;
+
   position: absolute;
   left: 50px;
   width: calc(100% - 100px);
@@ -69,80 +66,82 @@
   @include animation-detail(0.5s);
 }
 .tpx-two-title {
-  color: $gray-200;
-  font-size: 48px;
+  color: $gray-300;
+  font-size: 24px;
   font-family: $fontspecial;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
+  margin-top: 70px;
   letter-spacing: 0.7px;
 }
 .tpx-two-desc {
   color: $white;
-  font-size: 18px;
+  font-size: 14px;
   font-family: $fontspecial;
-
-  margin-top: 60vh;
-  width: 80%;
-  margin-left: 20%;
-  margin-bottom: 80px;
   letter-spacing: 0.6px;
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 40px;
 }
 .tpx-two-btn {
-  position: fixed;
-  top: calc(100% - 19%);
-  left: calc(80% - 83%);
   width: 100%;
+  margin-top: 40px;
   .shopbtn {
-    width: 90px;
-    background-color: $indigo;
-    color: $yellow;
-    font-size: 22px;
+    width: 110px;
+    background-color: $gray-700;
+    color: $orange;
+    font-size: 32px;
+    padding: 10px;
     font-family: $fontspecial;
   }
 }
 .tpx-three {
   text-align: center;
-  height: 20vh;
+
   position: absolute;
 
   left: 50px;
-  width: calc(100% - 150px);
+  width: calc(100% - 100px);
   top: calc(100% - 91%);
   z-index: 7779;
   @include animation-detail(0.5s);
 }
 .tpx-three-title {
   color: $gray-300;
-  font-size: 44px;
+  font-size: 24px;
   font-family: $fontspecial;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
+  margin-top: 70px;
   letter-spacing: 0.7px;
 }
 .tpx-three-desc {
   color: $white;
-  font-size: 18px;
+  font-size: 14px;
   font-family: $fontspecial;
   letter-spacing: 0.6px;
-  margin-top: 60vh;
-  width: 80%;
-  margin-left: 20%;
-  margin-bottom: 80px;
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 40px;
 }
 .tpx-three-btn {
-  position: fixed;
-  top: calc(100% - 19%);
-  left: calc(80% - 83%);
   width: 100%;
+  margin-top: 40px;
   .shopbtn {
-    width: 90px;
+    width: 110px;
     background-color: $gray-700;
-    color: $pink;
-    font-size: 22px;
+    color: $orange;
+    font-size: 32px;
+    padding: 10px;
     font-family: $fontspecial;
   }
 }
 .tpx-four {
   text-align: center;
-  height: 20vh;
   position: absolute;
   left: 50px;
   width: calc(100% - 100px);
@@ -153,75 +152,70 @@
 }
 .tpx-four-title {
   color: $gray-300;
-  font-size: 44px;
+  font-size: 24px;
   font-family: $fontspecial;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
+  margin-top: 70px;
   letter-spacing: 0.7px;
 }
 .tpx-four-desc {
   color: $white;
-  font-size: 18px;
+  font-size: 14px;
   font-family: $fontspecial;
   letter-spacing: 0.6px;
-  margin-top: 52vh;
-  width: 80%;
-  margin-left: 20%;
-  margin-bottom: 80px;
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 40px;
 }
 .tpx-four-btn {
-  position: fixed;
-  top: calc(100% - 19%);
-  left: calc(80% - 83%);
   width: 100%;
+  margin-top: 40px;
   .shopbtn {
-    width: 90px;
+    width: 110px;
     background-color: $gray-700;
     color: $orange;
-    font-size: 22px;
+    font-size: 32px;
+    padding: 10px;
     font-family: $fontspecial;
   }
 }
-.tpx-four {
-  text-align: center;
-  height: 20vh;
-  position: absolute;
-  left: 50px;
-  width: calc(100% - 100px);
-  top: calc(100% - 91%);
 
-  z-index: 7779;
-  @include animation-detail(0.5s);
-}
-.tpx-five-title {
+.tpx-ff-title {
   color: $gray-300;
-  font-size: 44px;
+  font-size: 24px;
   font-family: $fontspecial;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
+  margin-top: 70px;
   letter-spacing: 0.7px;
 }
-.tpx-five-desc {
+.tpx-ff-desc {
   color: $white;
-  font-size: 18px;
+  font-size: 14px;
   font-family: $fontspecial;
   letter-spacing: 0.6px;
-  margin-top: 52vh;
-  width: 80%;
-  margin-left: 20%;
-  margin-bottom: 80px;
-}
-.tpx-five-btn {
-  position: fixed;
-  top: calc(100% - 19%);
-  left: calc(80% - 83%);
+
   width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 40px;
+}
+.tpx-ff-btn {
+  width: 100%;
+  margin-top: 40px;
   .shopbtn {
-    width: 90px;
+    width: 110px;
     background-color: $gray-700;
     color: $orange;
-    font-size: 22px;
+    font-size: 32px;
+    padding: 10px;
     font-family: $fontspecial;
   }
 }
+
 @keyframes fadein {
   from {
     opacity: 0;
@@ -253,13 +247,15 @@
   }
   .tpx-one-desc {
     color: $white;
-    font-size: 22px;
+    font-size: 24px;
     font-family: $fontspecial;
-    margin-top: 90vh;
-    width: 80%;
-    margin-left: 20%;
-    margin-bottom: 80px;
     letter-spacing: 0.6px;
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 40px;
   }
   .tpx-two {
     width: calc(80% - 280px);
@@ -275,13 +271,15 @@
   }
   .tpx-two-desc {
     color: $white;
-    font-size: 22px;
+    font-size: 24px;
     font-family: $fontspecial;
-    margin-top: 90vh;
-    width: 80%;
-    margin-left: 20%;
-    margin-bottom: 80px;
     letter-spacing: 0.6px;
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 40px;
   }
   .tpx-three {
     width: calc(80% - 280px);
@@ -297,13 +295,15 @@
   }
   .tpx-three-desc {
     color: $white;
-    font-size: 22px;
+    font-size: 24px;
     font-family: $fontspecial;
-    margin-top: 90vh;
-    width: 80%;
-    margin-left: 20%;
-    margin-bottom: 80px;
     letter-spacing: 0.6px;
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 40px;
   }
   .tpx-four {
     width: calc(80% - 280px);
@@ -319,12 +319,14 @@
   }
   .tpx-four-desc {
     color: $white;
-    font-size: 22px;
+    font-size: 24px;
     font-family: $fontspecial;
-    margin-top: 90vh;
-    width: 80%;
-    margin-left: 20%;
-    margin-bottom: 80px;
     letter-spacing: 0.6px;
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 40px;
   }
 }
