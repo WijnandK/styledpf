@@ -22,12 +22,12 @@ class Blog   extends React.Component {
             <div className="blogheadspace" />
             <div className="blogwrapper">
           {!this.state.loading && (
-            <div>
+            <Fragment>
               {this.state.blogs.map((blog, i) => (
               <Post key={blog.date + `${i}`} id={blog.id} author="Wijnand" image={blog.image} date={blog.date} title={blog.title} content={blog.content} clicked={() => this.setpostHandler(blog)}/> 
 
               ))}
-            </div>
+            </Fragment  >
            
           )}
             

@@ -5,7 +5,7 @@ import allcom from "../static/images/allcom.png";
 import devcc from "../static/images/devcc.jpg";
 import Fade from "react-reveal/Fade";
 
- 
+import Swipermouse from "../components/Swipermouse/Swipermouse"
 
 import dconn from "../static/images/dconn.png";
 import places from "../static/images/places.png";
@@ -56,64 +56,15 @@ modal = (
           {modal}
          
 
-<div className="project_wrapper_bck">
-  <div className="desktopbanner_pf fadein">
-   Presenting some projects
-  </div>
-  <div className="projectline"/>
-      
-      <div className="back_project_head">
-        <Image imageUrl={devcc} center/> 
-      </div> 
+ 
+  
+  {/* <div className="projectline"/> */}
+     
       {/* DIFFERENT HEADER FOR DESKTOKP */}
-       <div className="back_project_head_desktop">
-<Image imageUrl={devcc} contain/> 
-      </div>
-      <div className="projectpftext fadein">
-      <p className="projectpftextp"> portfolio project skills </p> 
-      </div>
-              {/*DESKTOP   */}
-              </div>  
-              {/* END OF BLUE BCK */}
-          <div className="all_project_skills">
-      <Image imageUrl={allcom} contain/>
-          </div>
-             {/* DIFFERENT HEADER FOR DESKTOKP */}
-          <div className="all_project_skills_desktop">
-      <Image imageUrl={allcom} center/>
-          </div>
-           {/*DESKTOP   */}
-
-        <div className="project_card_wrapper">
-          <Fade bottom>
-   <Cardpf 
-    image={nstore} 
-    title="NEXTJS"
-    visit="https://nextjsshop.now.sh/login"   
-   openInfo={() => this.openInfoModalHandler(this.state.description2)}/>
-    </Fade>
-    <Fade bottom>
-      <Cardpf 
-              image={places} 
-              title="MERN FULLSTACK"   
-              visit="https://maxplacesapp.web.app/"
-              openInfo={() => this.openInfoModalHandler(this.state.description1)}/>   
-    </Fade>
-    <Fade bottom>
-  <Cardpf 
-    image={dconn} 
-    title="COURSE APP"   
-    visit="https://powerful-ridge-27803.herokuapp.com/"
-  openInfo={() => this.openInfoModalHandler(this.state.description3)}/>
-    </Fade>
-      <Fade bottom>
-  <Cardpf 
-    image={nodejsblack} 
-    title="CUSTOMIZED SHOP"   
-  openInfo={() => this.openInfoModalHandler(this.state.description4)}/>
-    </Fade>
-
-        </div>
+     
+     
+          <Swipermouse />
+      
       </div>
     );
   }

@@ -17,12 +17,15 @@
 @import "./backdrop";
 @import "./infoModal";
 @import "./toolbar";
+@import "./swipermouse.scss";
+
 // COMPONENTS
 html,
 body {
   height: 100%;
   width: 100%;
   font-family: "Montserrat", "Helvetica";
+  background-color: #ccc;
 }
 
 .clickable {
