@@ -3,7 +3,9 @@
   @include animation(fadein 2s);
   @include animation-fill-mode(forwards);
 }
-
+.mainbackwrap {
+  padding-top: 100px;
+}
 .fadeout {
   opacity: 0;
   @include animation(fadeout 2s);
@@ -103,7 +105,7 @@
   position: absolute;
 
   left: 50px;
-  width: calc(100% - 100px);
+  width: calc(100% - 150px);
   top: calc(100% - 91%);
   z-index: 7779;
   @include animation-detail(0.5s);
@@ -161,7 +163,7 @@
   font-size: 18px;
   font-family: $fontspecial;
   letter-spacing: 0.6px;
-  margin-top: 60vh;
+  margin-top: 52vh;
   width: 80%;
   margin-left: 20%;
   margin-bottom: 80px;
@@ -179,7 +181,47 @@
     font-family: $fontspecial;
   }
 }
+.tpx-four {
+  text-align: center;
+  height: 20vh;
+  position: absolute;
+  left: 50px;
+  width: calc(100% - 100px);
+  top: calc(100% - 91%);
 
+  z-index: 7779;
+  @include animation-detail(0.5s);
+}
+.tpx-five-title {
+  color: $gray-300;
+  font-size: 44px;
+  font-family: $fontspecial;
+  margin-bottom: 40px;
+  letter-spacing: 0.7px;
+}
+.tpx-five-desc {
+  color: $white;
+  font-size: 18px;
+  font-family: $fontspecial;
+  letter-spacing: 0.6px;
+  margin-top: 52vh;
+  width: 80%;
+  margin-left: 20%;
+  margin-bottom: 80px;
+}
+.tpx-five-btn {
+  position: fixed;
+  top: calc(100% - 19%);
+  left: calc(80% - 83%);
+  width: 100%;
+  .shopbtn {
+    width: 90px;
+    background-color: $gray-700;
+    color: $orange;
+    font-size: 22px;
+    font-family: $fontspecial;
+  }
+}
 @keyframes fadein {
   from {
     opacity: 0;
