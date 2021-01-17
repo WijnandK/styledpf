@@ -49,7 +49,7 @@ class FrontPage extends React.Component {
              >
         <div className="main-section">
           <div className="background-image">
-            <img src={backimg} />
+            <img src={backimg} alt="bckblue"/>
           </div>
           <Container>
             <Row>
@@ -63,7 +63,7 @@ class FrontPage extends React.Component {
                           Have a look at my portfolio .
                         </div>
                       </div>
-                      <img alt="Guy programming welcome picture" className="image" src={section1}/>
+                      <img alt="Guy programming welcome  " className="image_index" src={section1}/>
                       <div className="shadow-custom">
                         <div className="shadow-inner"> </div>
                       </div>
@@ -75,7 +75,7 @@ class FrontPage extends React.Component {
                           Profesional and top quality service in web development.
                         </div>
                       </div>
-                      <img alt="Guy programming welcome picture" className="image" src={section2}/>
+                      <img alt="Guy programming welcome  " className="image_index" src={section2}/>
                       <div className="shadow-custom shadow-custom-2">
                         <div className="shadow-inner"> </div>
                       </div>

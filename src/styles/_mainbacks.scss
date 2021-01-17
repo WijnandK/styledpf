@@ -1,0 +1,288 @@
+.fadein {
+  opacity: 0;
+  @include animation(fadein 2s);
+  @include animation-fill-mode(forwards);
+}
+
+.fadeout {
+  opacity: 0;
+  @include animation(fadeout 2s);
+  @include animation-fill-mode(forwards);
+}
+.linkbutton {
+  background-color: $orange;
+  width: 70px;
+  height: 70px;
+}
+.tpx-one {
+  text-align: center;
+  height: 20vh;
+  color: $white;
+  position: absolute;
+  left: 50px;
+  width: calc(100% - 100px);
+  top: calc(100% - 91%);
+  z-index: 7779;
+  @include animation-detail(0.5s);
+}
+.tpx-one-title {
+  color: $white;
+  font-size: 44px;
+  font-family: $fontspecial;
+  margin-bottom: 50px;
+  letter-spacing: 0.7px;
+}
+.tpx-one-desc {
+  color: $white;
+  font-size: 18px;
+  font-family: $fontspecial;
+  margin-top: 60vh;
+  width: 80%;
+  margin-left: 20%;
+  margin-bottom: 80px;
+  letter-spacing: 0.6px;
+}
+.tpx-one-btn {
+  position: fixed;
+  top: calc(100% - 19%);
+  left: calc(80% - 83%);
+  width: 100%;
+  .shopbtn {
+    width: 90px;
+    background-color: $teal;
+    color: $yellow;
+    font-size: 22px;
+    font-family: $fontspecial;
+  }
+}
+
+.tpx-two {
+  text-align: center;
+  height: 20vh;
+  position: absolute;
+  left: 50px;
+  width: calc(100% - 100px);
+  top: calc(100% - 91%);
+  z-index: 7779;
+  @include animation-detail(0.5s);
+}
+.tpx-two-title {
+  color: $gray-200;
+  font-size: 48px;
+  font-family: $fontspecial;
+  margin-bottom: 40px;
+  letter-spacing: 0.7px;
+}
+.tpx-two-desc {
+  color: $white;
+  font-size: 18px;
+  font-family: $fontspecial;
+
+  margin-top: 60vh;
+  width: 80%;
+  margin-left: 20%;
+  margin-bottom: 80px;
+  letter-spacing: 0.6px;
+}
+.tpx-two-btn {
+  position: fixed;
+  top: calc(100% - 19%);
+  left: calc(80% - 83%);
+  width: 100%;
+  .shopbtn {
+    width: 90px;
+    background-color: $indigo;
+    color: $yellow;
+    font-size: 22px;
+    font-family: $fontspecial;
+  }
+}
+.tpx-three {
+  text-align: center;
+  height: 20vh;
+  position: absolute;
+
+  left: 50px;
+  width: calc(100% - 100px);
+  top: calc(100% - 91%);
+  z-index: 7779;
+  @include animation-detail(0.5s);
+}
+.tpx-three-title {
+  color: $gray-300;
+  font-size: 44px;
+  font-family: $fontspecial;
+  margin-bottom: 40px;
+  letter-spacing: 0.7px;
+}
+.tpx-three-desc {
+  color: $white;
+  font-size: 18px;
+  font-family: $fontspecial;
+  letter-spacing: 0.6px;
+  margin-top: 60vh;
+  width: 80%;
+  margin-left: 20%;
+  margin-bottom: 80px;
+}
+.tpx-three-btn {
+  position: fixed;
+  top: calc(100% - 19%);
+  left: calc(80% - 83%);
+  width: 100%;
+  .shopbtn {
+    width: 90px;
+    background-color: $gray-700;
+    color: $pink;
+    font-size: 22px;
+    font-family: $fontspecial;
+  }
+}
+.tpx-four {
+  text-align: center;
+  height: 20vh;
+  position: absolute;
+  left: 50px;
+  width: calc(100% - 100px);
+  top: calc(100% - 91%);
+
+  z-index: 7779;
+  @include animation-detail(0.5s);
+}
+.tpx-four-title {
+  color: $gray-300;
+  font-size: 44px;
+  font-family: $fontspecial;
+  margin-bottom: 40px;
+  letter-spacing: 0.7px;
+}
+.tpx-four-desc {
+  color: $white;
+  font-size: 18px;
+  font-family: $fontspecial;
+  letter-spacing: 0.6px;
+  margin-top: 60vh;
+  width: 80%;
+  margin-left: 20%;
+  margin-bottom: 80px;
+}
+.tpx-four-btn {
+  position: fixed;
+  top: calc(100% - 19%);
+  left: calc(80% - 83%);
+  width: 100%;
+  .shopbtn {
+    width: 90px;
+    background-color: $gray-700;
+    color: $orange;
+    font-size: 22px;
+    font-family: $fontspecial;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeout {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@include media6 {
+  .tpx-one {
+    width: calc(80% - 280px);
+    margin-left: 20%;
+  }
+  .tpx-one-btn {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    width: calc(80% - 280px);
+  }
+  .tpx-one-desc {
+    color: $white;
+    font-size: 22px;
+    font-family: $fontspecial;
+    margin-top: 90vh;
+    width: 80%;
+    margin-left: 20%;
+    margin-bottom: 80px;
+    letter-spacing: 0.6px;
+  }
+  .tpx-two {
+    width: calc(80% - 280px);
+    margin-left: 20%;
+  }
+  .tpx-two-btn {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    width: calc(80% - 280px);
+  }
+  .tpx-two-desc {
+    color: $white;
+    font-size: 22px;
+    font-family: $fontspecial;
+    margin-top: 90vh;
+    width: 80%;
+    margin-left: 20%;
+    margin-bottom: 80px;
+    letter-spacing: 0.6px;
+  }
+  .tpx-three {
+    width: calc(80% - 280px);
+    margin-left: 20%;
+  }
+  .tpx-three-btn {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    width: calc(80% - 280px);
+  }
+  .tpx-three-desc {
+    color: $white;
+    font-size: 22px;
+    font-family: $fontspecial;
+    margin-top: 90vh;
+    width: 80%;
+    margin-left: 20%;
+    margin-bottom: 80px;
+    letter-spacing: 0.6px;
+  }
+  .tpx-four {
+    width: calc(80% - 280px);
+    margin-left: 20%;
+  }
+  .tpx-four-btn {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    width: calc(80% - 280px);
+  }
+  .tpx-four-desc {
+    color: $white;
+    font-size: 22px;
+    font-family: $fontspecial;
+    margin-top: 90vh;
+    width: 80%;
+    margin-left: 20%;
+    margin-bottom: 80px;
+    letter-spacing: 0.6px;
+  }
+}

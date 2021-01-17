@@ -1,14 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-  
+ 
 const button = props =>
   !props.link ? (
     <button
       className={[
         'button',
         `button--${props.design}`,
-        `button--${props.mode}`
+        `button--${props.mode}`,
+        `button--${props.front}`
       ].join(' ')}
       onClick={props.onClick}
       disabled={props.disabled || props.loading}

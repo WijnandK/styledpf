@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
-import Typed from "react-typed";
-
+ 
  
 import foolhat from "../static/images/foolhat.svg";
 import javascript from "../static/images/javascript.svg";
@@ -16,8 +15,7 @@ import { Container, Row, Col } from "reactstrap";
  
 
 import Accordion from "../components/Acccordion/Accordion";
-import Image from "../components/Image/Image";
-
+ 
 class About extends React.Component {
   constructor(props) {
     super(props);
@@ -60,7 +58,7 @@ class About extends React.Component {
         <div className={` cover-3 `}>
           <div className="main-section">
             <div className="background-image ">
-              <img src={backimg} />
+              <img src={backimg} alt="bck"/>
             </div>
             <Container>
               <Row>
@@ -70,7 +68,7 @@ class About extends React.Component {
                 </Col>
                 <Col>
                   <div>
-                    <img src={devh} className="image" />
+                    <img src={devh} className="image" alt="developer"/>
                   </div>
                   <p className="subsubTitle fadein">
                     Feel free to read a short description about me.
@@ -85,7 +83,7 @@ class About extends React.Component {
           <div className="section_wrapper">
             <div className="section_item">
               <div className="section_image">
-                <img src={foolhat} className="image" />
+                <img src={foolhat} className="image" alt="developer orange"/>
               </div>
               <div className="section_left">
                 <div className="section_title">Maybe I am not the best</div>
@@ -99,7 +97,7 @@ class About extends React.Component {
             <Fade bottom>
               <div className="section_item one">
                 <div className="section_image">
-                  <img src={javascript} className="image" />
+                  <img src={javascript} className="image" alt="javascript"/>
                 </div>
                 <div className="section_left">
                   <div className="section_title">Favorite language</div>
@@ -115,7 +113,7 @@ class About extends React.Component {
             <Fade bottom big>
               <div className="section_item two">
                 <div className="section_image">
-                  <img src={edd} className="image" />
+                  <img src={edd} className="image" alt="srcdegree"/>
                 </div>
                 <div className="section_left">
                   <div className="section_title">No Degree!</div>

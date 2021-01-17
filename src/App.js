@@ -3,9 +3,9 @@ import { Route, Switch, Redirect } from "react-router-dom";
 
 import FrontPage from "./pages/FrontPage";
 import About from "./pages/About";
-import Blog from "./pages/Blog";
+ 
 import Projects from "./pages/Projects";
-import BlogPost from "./pages/BlogPost";
+ 
 
 
 import Layout from './components/Layout/Layout';
@@ -60,22 +60,13 @@ class App extends Component {
       <Switch>
         <Route path="/" exact render={(props) => <FrontPage {...props} />} />
         <Route path="/About" exact render={(props) => <About isActive={true} {...props} />} />
-        <Route path="/Blog" exact render={(props) => <Blog {...props} />} />
-        <Route
+         <Route
           path="/Portfolio"
           exact
           render={(props) => <Projects {...props} />}
         />
-         <Route
-            path="/blog/:postId"
-            render={props => (
-              <BlogPost
-                {...props}
-                userId={this.state.userId}
-                token={this.state.token}
-              />
-            )}
-          />
+          
+           
         <Redirect to="/" />
       </Switch>
     );

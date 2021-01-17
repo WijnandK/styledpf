@@ -1,9 +1,6 @@
 import React from 'react';
-import Avatar from "../Image/Avatar"
-import stud from "../../static/images/stud.svg"
-import controller from "../../static/images/controller.svg"
-import machine from "../../static/images/machine.svg"
-import mboar from "../../static/images/mboar.svg"
+ 
+ 
 
 const paragraph1 = `2 years of bachelor marketing,  3 years as sales leader in a franchise, responsible for controlling staff and appearence /  of articles. Since 2018 process operater and part time student.`
 const paragraph2 = 'Altough I chose marketing as study direction I did always have a passion for computers and technology. I am very competetive , and with an analytical mindset I find the best parts of myself in software development  '
@@ -13,23 +10,19 @@ const paragraph4 = "korlaarwijnand@hotmail.com  Phone: +31651399175"
 const data = [
   {
     title: 'CV & EXPERIENCE', 
-    paragraph: paragraph1,  
-    imageurl: mboar
+    paragraph: paragraph1 
   },
   {
     title: 'LEARNING ',
-    paragraph: paragraph2,
-    imageurl: controller
+    paragraph: paragraph2 
   },
   {
     title: 'TECHNOLOGY SKILLS',
-    paragraph: paragraph3,
-     imageurl: machine
+    paragraph: paragraph3 
   },
   {
     title: 'CONTACT INFO',
-    paragraph:paragraph4,
-    imageurl: stud
+    paragraph:paragraph4 
   }
 ]
 
@@ -60,8 +53,7 @@ class AccordionItem extends React.Component {
     const {
       props: {
         paragraph,
-        title,
-        imageurl
+        title 
       },
       state: {
         opened
