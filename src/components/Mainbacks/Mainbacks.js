@@ -80,17 +80,8 @@ class Mainbacks extends Component {
           </div>
         );
         break;
-          case 4:
-        tpx = (
-          <div className={`tpx-five fadein`}>
-            <h1 className="tpx-five-title">MERN STORE </h1>
-               <Swiperflip imageone={zstore1} imagetwo={javajs} imagethree={zstore2} imagefour={connect1} imagefive={devh} imagesix={jsvg}/>
-            <div className="tpx-five-btn">
-              <a href="https://quirky-bhabha-15bb06.netlify.app/#/" className="shopbtn">VISIT</a>
-            </div>
-          </div>
-        );
-        break; 
+         
+       
       default:
         tpx = <div className="tpx-one"></div>;
     }

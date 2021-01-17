@@ -1,12 +1,12 @@
-import React from 'react';
+import React,{Fragment} from 'react';
 import Swipermouse from "../Swipermouse/Swipermouse";
 
 
 const Slidesbuild = (props) => {
   return (
-    <div>
+    <Fragment>
       <Swipermouse setIndexback={props.setIndexback}/>
-    </div>
+    </Fragment>
   );
 }
 

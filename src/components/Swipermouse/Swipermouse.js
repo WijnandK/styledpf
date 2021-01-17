@@ -80,18 +80,7 @@ const Swipermouse = (props) => {
               ! This is a course app. Altough i can assure you, there is not a single line of code unkown for me.
             </h5>
         </SwiperSlide>
-            <SwiperSlide className="slide_item five_i">
-          <div className="background-image_i">
-            <img src={backimg} alt="bluebck"/>
-          </div>
-            <h5 className="tpx-four-desc">
-            Still ongoing project.
-            Products and shop api are ready to be integredated with the frontend.
-            Front end design, includes filters and based on color price or name.
-            Makes use of the mongoose querries.
-            Coming soon..
-            </h5>
-        </SwiperSlide>
+           
       </Swiper>
     </main>
   );
