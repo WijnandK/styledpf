@@ -25,10 +25,10 @@ class Projects extends Component {
      
        <div className="contain_wrapper">
  
- 
+         
         <Slidebuild setIndexback={this.setIndex}/>
         <Mainback caseIndex={this.state.index}  />
-   
+
       </div>
     );
   }
